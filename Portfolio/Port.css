@@ -1,0 +1,65 @@
+
+.paralax{
+  background-image: url("background.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  border:5px solid black;
+
+
+}
+#nameCard{
+	float: left;
+	margin: 10px;
+
+}
+#aboutME{
+	float: left;
+	margin:10px;
+	margin-top: 30px;
+}
+#nameCard span{
+	width:100px;
+	height: 100px;
+	background-color: red;
+	clear-after: both; 
+} 
+#profileCard{
+	display: flex;
+	justify-content: center; 
+     align-items: stretch; 
+
+}
+.nopar{
+	display: flex;
+	flex-direction: column; 
+	padding: 5% 20%;
+	margin:2%;
+	background-color:white;
+	border:5px solid black;
+	height: auto;
+	clear-after: both; 
+
+}
+.subhead h1{
+align-items: center;
+}
+
+body{
+	margin:0;
+	background-color: rgba(77, 209, 170, 0.5);
+
+}
+h1{
+	font-size: 50px;
+	color:white;
+	text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.center{
+	text-align: center
+}
